@@ -1,19 +1,24 @@
 // import Hello from './Components/Hello';
 // import Welcome from './Components/Welcome'
 import "./App.css";
-import ParentComponent from "./Components/parentComponent";
+// import ParentComponent from "./Components/parentComponent";
 // import Message from './Components/Message';
 // import Counter from "./Components/Counter";
 // import Greetings from './Components/destructuring';
 // import Handler from './Components/Handler'
 // import Bind from "./Components/eventBinding";
+// import Greeting from "./Components/userGreeting";
+import List from './Components/List rendering/ListRendering'
+
 
 
 
 function App() {
   return (
     <div className="App">
-    <ParentComponent />
+      <List />
+      {/* <Greeting /> */}
+    {/* <ParentComponent /> */}
       {/* <Greetings name = "Clark Kent" heroName = "Superman"/> */}
       {/* <Counter /> */}
       {/* <Message /> */}
