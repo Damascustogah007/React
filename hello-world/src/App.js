@@ -8,15 +8,14 @@ import "./App.css";
 // import Handler from './Components/Handler'
 // import Bind from "./Components/eventBinding";
 // import Greeting from "./Components/userGreeting";
-import List from './Components/List rendering/ListRendering'
-
+import ListRendering from "./Components/List rendering/ListRendering";
 
 
 
 function App() {
   return (
     <div className="App">
-      <List />
+      <ListRendering />
       {/* <Greeting /> */}
     {/* <ParentComponent /> */}
       {/* <Greetings name = "Clark Kent" heroName = "Superman"/> */}
