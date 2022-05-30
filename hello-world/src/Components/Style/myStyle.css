@@ -1,0 +1,14 @@
+.primary{
+    color : orange;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.secondary{
+    color : red;
+    font-style: italic;
+    letter-spacing: 20px;
+}
+.font-xl {
+    font-size: 72;
+}
+

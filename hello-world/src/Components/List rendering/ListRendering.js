@@ -26,7 +26,8 @@ export class ListRendering extends Component {
     const personList = Persons.map((person, index) => (
       // <Person key={index} person={person}></Person>
       <h3>
-       {index}. I am {person.name}, I am {person.age} years old and I am highly skilled in {person.stack}
+        {index}. I am {person.name}, I am {person.age} years old and I am highly
+        skilled in {person.stack}
       </h3>
     ));
 
