@@ -1,9 +1,9 @@
 import "./App.css";
-import Form from './Components/Form/Form'
+import Portal from "./Components/Portal/portal"
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Portal />
     </div>
   );
 }
