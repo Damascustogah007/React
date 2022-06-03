@@ -1,9 +1,19 @@
 import "./App.css";
-import Portal from "./Components/Portal/portal"
+import Hero from "./Components/ErrorBoundary/Hero";
+import Error from "./Components/ErrorBoundary/errorBoundary";
+
 function App() {
   return (
     <div className="App">
-      <Portal />
+      <Error>
+        <Hero heroName="Batman" />
+      </Error>
+      <Error>
+        <Hero heroName="Superman" />
+      </Error>
+      <Error>
+        <Hero heroName="Joker" />
+      </Error>
     </div>
   );
 }
