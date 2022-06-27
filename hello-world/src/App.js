@@ -1,13 +1,11 @@
 import "./App.css";
-import ComponentA from "./Components/Contextss/ComponentA";
-import { UserProvider } from "./Components/Contextss/userContext";
+import Get from "./Components/React_HTTP/Get_http";
+
 
 function App() {
   return (
     <div className="App">
-      <UserProvider value="Charles">
-        <ComponentA />
-      </UserProvider>
+      <Get/>
     </div>
   );
 }
