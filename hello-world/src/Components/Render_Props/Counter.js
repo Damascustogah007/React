@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from 'react'
 
 class Counter extends Component {
   constructor(props) {
@@ -9,7 +9,7 @@ class Counter extends Component {
     };
   }
 
-  incrementCount = () => {
+  incrementCount = () => {  
     this.setState((prevState) => {
       return {
         count: prevState.count + 1,
@@ -18,6 +18,7 @@ class Counter extends Component {
   };
   render() {
     return this.props.render(this.state.count, this.incrementCount);
+    // return this.props.children(this.state.count, this.incrementCount)
   }
 }
 
