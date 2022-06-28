@@ -4,12 +4,17 @@ import axios from "axios";
 class Post_http extends Component {
   constructor(props) {
     super(props);
+    this.inputRef = React.createRef();
 
     this.state = {
       userId: "",
       title: "",
       body: "",
     };
+  }
+
+  componentDidMount() {
+    this.inputRef.current.focus();
   }
 
   changeHandler = (event) => {
@@ -41,6 +46,7 @@ class Post_http extends Component {
               name="userId"
               value={userId}
               onChange={this.changeHandler}
+              ref={this.inputRef}
             />
           </div>
 
