@@ -1,11 +1,11 @@
 import "./App.css";
-import Get from "./Components/React_HTTP/Get_http";
+import Post from "./Components/React_HTTP/Post_http";
 
 
 function App() {
   return (
     <div className="App">
-      <Get/>
+      <Post/>
     </div>
   );
 }
