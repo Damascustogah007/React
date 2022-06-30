@@ -26,8 +26,8 @@ import React, { Component } from "react";
 
 class Greeting extends Component {
   render() {
-      const {name , heroName} = this.props
-    //   for states 
+    const { name, heroName } = this.props;
+    //   for states
     // const {name , heroName} = this.state
     return (
       <div>
