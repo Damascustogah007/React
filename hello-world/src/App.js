@@ -1,11 +1,10 @@
 import "./App.css";
-import Post from "./Components/React_HTTP/Post_http";
-
+import Tables from "./Components/FragmentDemo/Tables";
 
 function App() {
   return (
     <div className="App">
-      <Post/>
+      <Tables />
     </div>
   );
 }
