@@ -1,12 +1,10 @@
 import "./App.css";
-import ClickedCounter from './Components/HigherOrderComponet/ClickedCounter'
-import HoverCounter from './Components/HigherOrderComponet/HoverCounter'
+import ParentComp from "./Components/Pure Component/ParentComp";
 
 function App() {
   return (
     <div className="App">
-      <ClickedCounter />
-      <HoverCounter name='Charles'/>
+      <ParentComp />
     </div>
   );
 }

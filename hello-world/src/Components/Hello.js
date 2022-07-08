@@ -1,15 +1,14 @@
-import React from 'react'
+import React from "react";
 
-const Hello = (props)=> {
-    console.log(props)
-    return(
-        <div>
-            <h1>
-                My name is {props.name} a.k.a {props.heroName}
-            </h1>
-            {props.children}
-        </div>
-    )
-}
+const Hello = (props) => {
+  return (
+    <div>
+      <h1>
+        My name is {props.name} a.k.a {props.heroName}
+      </h1>
+      {props.children}
+    </div>
+  );
+};
 
-export default Hello
+export default Hello;
